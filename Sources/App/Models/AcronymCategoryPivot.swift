@@ -8,7 +8,6 @@ final class AcronymCategoryPivot: PostgreSQLUUIDPivot {
     
     typealias Left = Acronym
     typealias Right = Category
-    
     static let leftIDKey: LeftIDKey = \.acronymID
     static let rightIDKey: RightIDKey = \.categoryID
     
